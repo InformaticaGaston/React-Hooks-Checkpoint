@@ -1,0 +1,131 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+/* navbar styling */
+#navbar {
+  background-color: #3c153b;
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+#navbar h3 {
+  margin-left: 10px;
+  color: white;
+}
+
+#navbar input,.search-btn {
+  height: 30px;
+   border: none;
+  outline: none;
+  background-color: white;
+}
+
+::placeholder {
+   font-size: 1.2em;
+   
+}
+
+.search-btn {
+  border-radius: 0 8px 8px 0px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#navbar input {
+  border-radius: 8px 0px 0px 8px;
+  margin-left: 800px;
+  width: 300px;
+}
+
+/*movie styling*/
+
+.movie-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px 5% 20px 5%;
+  
+  
+}
+.movie {
+margin-top: 20px;  
+width: 300px;
+height: 445px;
+border: 2px solid rgba(39, 38, 38, 0.068);
+background-color: #3c153b;
+color: white;
+border-radius: 2%;
+overflow: hidden;
+}
+.movie:hover {
+  height: 550px;
+}
+img {
+  width: 300px;
+  height: 400px;
+}
+.rating {
+  display: flex;
+}
+.fa-star{
+  color: gold;
+}
+
+
+/*AddMovie styling */
+
+.add-container {
+  background-color:#3c153b ;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  
+}
+.add-container , h4 {
+  color: white;
+}
+.click-btn {
+  margin-left: 50px;
+  width: 100px;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 5%;
+  font-size: 1.2rem;
+  background-color: violet;
+  color: white;
+  cursor: pointer;
+}
+
+/*form styling*/ 
+form {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  margin-top: 20%;
+  
+}
+.cs-btn{
+width: 100px;
+outline: none;
+border: none;
+background-color: violet;
+color:white ;
+margin-left: 10px;
+margin-top: 20px;
+font-size: 1.8rem;
+}
+
+.close-btn {
+  margin-left: 190px;
+}
+.labels {
+  font-size: 1.8rem;
+}
+form, input {
+width: 400px;
+height: 30px;
+}
